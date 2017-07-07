@@ -4,7 +4,7 @@
 
 - Author: Dianne Friesen
 - Publication Date: July 10th 2017
-- Series: Studies in Diversity Linguistics 
+- Series: African Language Grammars and Dictionaries
 - Volume: 3
 
 ## Description
