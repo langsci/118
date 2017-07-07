@@ -10,9 +10,9 @@
  
 \documentclass[output=book,
 		      modfonts,
-% 		      draftmode,
+		      draftmode,draft,
 		      nonflat,
-		      colorlinks,
+% 		      colorlinks,
 % 		      showindex
 		  ]{langsci/langscibook}     
   
@@ -33,6 +33,20 @@
 \input{localcounters.tex}  
 \bibliography{localbibliography} 
 
+\includeonly{ 
+% chapters/1,
+% chapters/2, 
+% chapters/3, 
+chapters/4, 
+chapters/5, 
+chapters/6, 
+% chapters/7, 
+% chapters/8, 
+% chapters/9, 
+% chapters/10,
+% chapters/11,
+% chapters/12
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%                                              %%%
 %%%             Frontmatter                      %%%
@@ -45,6 +59,8 @@
 
 %\currentpdfbookmark{Contents}{name} % adds a PDF bookmark
 \newcommand{\chapterpath}{chapters}
+
+\largerpage
 \tableofcontents
 \include{\chapterpath/preface}
 \include{\chapterpath/acknowledgments}
@@ -89,6 +105,7 @@
  
 \input{localseealso.tex}  
 % There is normally no need to change the backmatter section
+\sloppy
 \input{backmatter.tex} 
 \end{document}
 
